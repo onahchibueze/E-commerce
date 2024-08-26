@@ -1,5 +1,5 @@
 .hero {
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
     display: flex;
 }
@@ -34,7 +34,7 @@
 }
 
 .hero-hand-icon img {
-    width: 105px;
+    width: 100px;
 
 }
 
@@ -58,4 +58,42 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero {
+        height: 100%;
+    }
+
+    .hero-left {
+        padding-left: 120px;
+        gap: 15px;
+    }
+
+    .hero-left hr {
+        font-size: 20px;
+    }
+
+    .hero-left p {
+        font-size: 60px;
+    }
+
+    .hero-hand-icon {
+        gap: 15px;
+    }
+
+    .hero-hand-icon img {
+        width: 80px;
+    }
+
+    .hero-lastest-btn {
+        width: 250px;
+        height: 60px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .hero-right {
+        flex: 1;
+    }
 }
