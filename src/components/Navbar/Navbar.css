@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -82,6 +88,36 @@
     color: white;
 }
 
+.menubar-list {
+    width: 100px;
+    background: #ff5a5a;
+    padding: 10px;
+    height: 200px;
+    border: 1px solid #b4b5b8;
+}
+
+.menubar-list li {
+    list-style: none;
+    font-size: 12px;
+    color: black;
+    margin-bottom: 1.5rem;
+
+}
+
+.navbar .absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+
+}
+
+.menubar-list hr {
+    background: white;
+}
+
 @media only screen and (max-width: 1024px) {
     .navbar {
         padding: 12px;
@@ -126,5 +162,117 @@
         margin-top: -30px;
         margin-left: -70px;
         font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 8px;
+        align-items: center;
+
+    }
+
+    .nav-logo {
+        gap: 5px;
+    }
+
+    .nav-logo p {
+        font-size: 1.5rem;
+    }
+
+    .nav-menu {
+        gap: 2rem;
+        font-size: 0.8rem;
+        margin-right: 1.5rem;
+    }
+
+    .nav-menu li {
+        gap: 1.5px;
+    }
+
+    .nav-menu hr {
+        width: 50%;
+        height: 2px;
+    }
+
+    .nav-login-cart {
+        gap: 2rem;
+    }
+
+    .nav-login-cart button {
+        width: 100px;
+        height: 38px;
+        font-size: 16px;
+    }
+
+    .nav-cart-count {
+        width: 15px;
+        height: 15px;
+        margin-top: -25px;
+        margin-left: -60px;
+        font-size: 8px;
+    }
+}
+
+.nav-toggle img {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+.show {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .show {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .navbar {
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+
+    .nav-logo p {
+        font-size: 1.2rem;
+    }
+
+    .nav-menu {
+        gap: 1rem;
+        font-size: 0.7rem;
+
+    }
+
+    .nav-menu li {
+        gap: 1px;
+    }
+
+    .nav-menu hr {
+        width: 40%;
+        height: 1.5px;
+    }
+
+
+
+    .nav-login-cart button {
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .nav-cart-count {
+        width: 12px;
+        height: 12px;
+        margin-top: -25px;
+        margin-left: -40px;
+        font-size: 7px;
     }
 }

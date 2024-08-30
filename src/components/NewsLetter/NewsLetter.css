@@ -122,3 +122,38 @@
         font-size: 12px;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .newletter {
+        width: 90%;
+        height: 30%;
+        padding: 15px 40px;
+    }
+
+    .newletter h1 {
+        font-size: 25px;
+    }
+
+    .newletter p {
+        font-size: 10px;
+    }
+
+    .newletter div {
+        width: 350px;
+        height: 50px;
+
+        align-items: center;
+    }
+
+    .newletter input {
+        width: 250px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .newletter div button {
+        width: 80px;
+        height: 50px;
+        font-size: 12px;
+    }
+}

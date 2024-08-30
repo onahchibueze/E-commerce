@@ -8,7 +8,7 @@ export const DescriptionBox = () => {
                 <div className="descriptionbox-nav-box">
                     Description
                 </div>
-                <div className="descriptionbox-nav-box fade">
+                <div className="descriptionbox-nav-box fade hide">
                     Reviews (122)
                 </div>
                 <div className="descriptionbox-description">

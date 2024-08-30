@@ -1,7 +1,8 @@
-
+import React from 'react';
 import './App.css';
 import { NavBar } from './components/Navbar/Navbar.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import { Shop } from './pages/Shop.jsx';
 import { ShopCategory } from './pages/ShopCategory.jsx';
 import { Product } from './pages/Product.jsx';
@@ -27,9 +28,12 @@ function App() {
           </Route >
           <Route path='/cart' element={<Cart />} />
           <Route path='/login' element={<LoginSignup />} />
+
         </Routes >
         <Footer />
       </BrowserRouter >
+
+
     </div>
   );
 }

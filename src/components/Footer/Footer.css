@@ -121,3 +121,45 @@
         width: 60%;
     }
 }
+
+@media only screen and (max-width: 480px) {
+
+    .footer {
+        gap: 30px;
+    }
+
+    .footer-logo p {
+        font-size: 30px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 12px;
+    }
+
+    .footer-social-icon {
+        gap: 15px;
+    }
+
+    .footer-icons-container {
+
+        padding: 8px;
+        padding-bottom: 5px;
+    }
+
+    .footer-icons-container img {
+        max-width: 20pxpx;
+
+    }
+
+    .footer-copyright {
+        gap: 20px;
+        font-size: 12px;
+    }
+
+    .footer-copyright hr {
+        width: 90%;
+        height: 2px;
+    }
+}

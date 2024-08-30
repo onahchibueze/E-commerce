@@ -288,3 +288,82 @@ hr {
         font-size: 14px;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .cartitems {
+        margin: 20px 20px;
+    }
+
+    .cartitems-format-main {
+        grid-template-columns: 1fr;
+        font-size: 12px;
+    }
+
+    .carticon-product-icon {
+        height: 35px;
+        margin-right: 0.8rem;
+    }
+
+    .carticon-remove-icon {
+        margin-left: 30%;
+        width: 9px;
+
+    }
+
+    .cartitems-quantity {
+        width: 35px;
+        height: 30px;
+    }
+
+    .cartitems-down {
+        padding: 8px;
+        flex-direction: column;
+        margin: 20px 20px;
+        align-items: center;
+    }
+
+    .cartitems-total {
+        width: 100%;
+    }
+
+    .cartitems-total h1 {
+        font-size: 16px;
+    }
+
+    .cartitems-total-item {
+        margin-bottom: 2px;
+    }
+
+    .cartitems-total-item p {
+        font-size: 12px;
+    }
+
+    .cartitems-total-item h3 {
+        font-size: 16px;
+    }
+
+    .cartitems-promocode {
+        font-size: 12px;
+        width: 100%;
+        padding: 8px;
+
+    }
+
+    .cartitems-promocode p {
+        font-size: 12px;
+        margin-bottom: 2px;
+
+    }
+
+    .cartitems-promobox {
+        margin-top: 5px;
+        margin-left: 0;
+        max-width: 300px;
+    }
+
+    .cartitems-promobox input,
+    .cartitems-promobox button {
+        padding: 5px;
+        font-size: 12px;
+    }
+}

@@ -97,3 +97,48 @@
         flex: 1;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .hero {
+        padding-top: 5rem;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .hero-left {
+        padding-left: 120px;
+        gap: 15px;
+    }
+
+    .hero-left hr {
+        font-size: 20px;
+    }
+
+    .hero-left p {
+        font-size: 40px;
+    }
+
+    .hero-left h2 {
+        font-size: 20px;
+    }
+
+    .hero-hand-icon {
+        gap: 15px;
+    }
+
+    .hero-hand-icon img {
+        width: 80px;
+    }
+
+    .hero-lastest-btn {
+        width: 250px;
+        height: 60px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .hero-right img {
+        flex: 1;
+        width: 100%;
+    }
+}

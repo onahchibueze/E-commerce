@@ -101,3 +101,32 @@
         justify-content: center;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .offers {
+        flex-direction: column;
+        width: 90%;
+        height: 40%;
+        padding: 0px 40px;
+        margin-bottom: 80px;
+    }
+
+    .offers-left h1 {
+        font-size: 40px;
+    }
+
+    .offers-left p {
+        font-size: 16px;
+    }
+
+    .offers-left button {
+        width: 180px;
+        height: 40px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .offers-right {
+        justify-content: center;
+    }
+}

@@ -49,3 +49,28 @@
         gap: 20px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .hide {
+        display: none;
+    }
+
+    .descriptionbox {
+        margin: 20px;
+    }
+
+    .descriptionbox-nav-box {
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+    }
+
+    .descriptionbox-description {
+        max-width: 300px;
+        padding: 20px;
+        padding-bottom: 30px;
+        gap: 15px;
+        font-size: 9px;
+        font-weight: 600;
+    }
+}

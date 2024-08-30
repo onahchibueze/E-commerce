@@ -22,3 +22,10 @@
          font-size: 12px;
      }
  }
+
+ @media only screen and (max-width: 480px) {
+     .breadcrum {
+         margin: 20px 50px;
+         font-size: 8px;
+     }
+ }
