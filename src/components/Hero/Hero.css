@@ -98,6 +98,46 @@
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .hero {
+        height: 100%;
+        flex-direction: column;
+        padding-top: 5rem;
+    }
+
+    .hero-left {
+        padding-left: 120px;
+        gap: 15px;
+    }
+
+    .hero-left hr {
+        font-size: 20px;
+    }
+
+    .hero-left p {
+        font-size: 60px;
+    }
+
+    .hero-hand-icon {
+        gap: 15px;
+    }
+
+    .hero-hand-icon img {
+        width: 80px;
+    }
+
+    .hero-lastest-btn {
+        width: 250px;
+        height: 60px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .hero-right {
+        flex: 1;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .hero {
         padding-top: 5rem;
