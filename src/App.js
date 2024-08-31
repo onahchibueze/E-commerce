@@ -14,7 +14,7 @@ import women_banner from './components/assets/banner_women.png'
 import kid_banner from './components/assets/banner_kids.png'
 function App() {
   return (
-    <div >
+    <div  >
       <BrowserRouter >
         <NavBar />
         <Routes >
