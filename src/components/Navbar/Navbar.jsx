@@ -34,8 +34,8 @@ export const NavBar = () => {
                     </>
 
                 ) : (
-                    <div className='absolute'>
-                        <ul onClick={handleSidebarDoubleClick} className='menubar-list'>
+                    <div className='absolute '>
+                        <ul onClick={handleSidebarDoubleClick} className='menubar-list '>
                             <li onClick={() => { setMenu("shop") }}><Link style={{ textDecoration: 'none', color: 'white' }} to="/">Shop</Link>  {menu === "shop" ? <hr /> : <></>} </li>
                             <li onClick={() => { setMenu("mens") }}><Link style={{ textDecoration: 'none', color: 'white' }} to="/mens" >Men</Link>  {menu === "mens" ? <hr /> : <></>}</li>
                             <li onClick={() => { setMenu("womens") }}> <Link style={{ textDecoration: 'none', color: 'white' }} to="/womens">Women</Link>  {menu === "womens" ? <hr /> : <></>}</li>

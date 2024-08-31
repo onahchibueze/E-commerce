@@ -104,18 +104,18 @@
 
 }
 
-.navbar .absolute {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
 
-
-}
 
 .menubar-list hr {
     background: white;
+}
+
+.show {
+    display: none;
+}
+
+.absolute {
+    display: none;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -222,9 +222,7 @@
     height: 20px;
 }
 
-.show {
-    display: none;
-}
+
 
 @media only screen and (max-width: 480px) {
     .show {
@@ -276,5 +274,20 @@
         margin-top: -25px;
         margin-left: -40px;
         font-size: 7px;
+    }
+
+    .showed {
+        z-index: 1000;
+    }
+
+    .absolute {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+
+
     }
 }
