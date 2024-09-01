@@ -139,14 +139,14 @@
     }
 
     .newletter div {
-        width: 250px;
+        width: 300px;
         height: 50px;
 
         align-items: center;
     }
 
     .newletter input {
-        width: 250px;
+        width: 100px;
         margin-left: 10px;
         font-size: 12px;
     }
